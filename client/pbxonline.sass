@@ -9,7 +9,7 @@ $darkBlue: #000759
 
 body
 	background: #fff
-	color: #000759
+	color: $darkBlue
 	-webkit-font-smoothing: antialiased
 	font-family: 'Helvetica Neue'
 a
@@ -37,27 +37,71 @@ a
 			text-decoration: none
 
 .top-section
+
+	margin-top: -25px
 	h2
 		font-weight: 300
-		color: #014C73
+		color: $blue
 		font-size: 40px
-		strong
-			font-weight: 300
-			color: #000759
-				
+		margin-bottom: -10px
+		padding-bottom: 0px
+		&:strong
+			font-size: 42px
+
+
+	h3
+		font-weight: 300
+		color: $greenBlue
+		font-size: 24px
+
+.top-section-square
+	text-align: center
+	padding-top: 30px
+	font-size: 14px
+	&:strong
+		font-size: 18px
 
 .form-section
 	background: $green
-	border: 1px solid $blue
-	padding: 0px 5px 5px 10px
+	text-align: center
+	padding: 0px 10px 15px 10px
+	margin-left: 80px
 	max-width: 350px
 	&:form
 		max-width: 300px
 
 	h2
 		font-size: 32px
+		margin-bottom: 0px
+		padding-bottom: 0px
 	h3
-		font-size: 20px
+		font-size: 16px
+
+.main-form
+	margin: auto
+	max-width: 300px
+
+.main-features
+	color: #fff
+	h4
+		font-size: 22px
+		font-weight: 400
+		padding-top: 15px
+
+.main-footer
+	color: #777
+	padding-top: 15px
+	padding-bottom: 15px
+	text-align: center
+	a
+		color: $greenBlue
+		font-weight: 500
+		&:hover
+			text-decoration: underline
+
+.as-seen-on
+	margin: auto
+	text-align: center
 
 
 #menu
@@ -65,17 +109,27 @@ a
 	box-shadow: 0 0 5px 2px rgba(0,0,0,0.3)
 
 #header
-	margin-top: 20px
+	padding-top: 50px
+	padding-bottom: 25px
 
 #features
-	border-top: 1px solid #eee
+	background: $greenBlue
 	margin-top: 40px
-	padding-top: 30px 
+	padding-top: 50px 
+	padding-bottom: 15px
 
 #footer
 	background: #eee
-	margin-top: 80px 
-	height: 100px
+	margin-top: 0px 
+	min-height: 80px
+
+
+#line
+	margin-top: 30px
+	margin-bottom: 0px
+	padding: 0px
+	background: #999
+	height: 2px
 
 
 

@@ -6,13 +6,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-5 logo">
-			 <h1><i class="fa fa-phone-square"></i><strong>  PBX</strong> Online</h1>
+			 <h1><i class="fa fa-phone-square"></i><strong>  PBX</strong>Online</h1>
 		</div>
 		<div class="col-xs-7 pbx-nav">
-			<a href="#">Inicio</a>
-			<a href="#">¿C&oacute;mo funciona?</a>
-			<a href="#">Ventajas</a>
-
+			<a href="#features">Ventajas</a>
+			<a href="#header">¿C&oacute;mo funciona?</a>
+			<a href="#menu">Inicio</a>
 		</div>
 		</div>
 	</div>
@@ -26,25 +25,30 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-7 top-section">
-			<h2><strong>PBX virtual</strong> para tu empresa</h2>
+			<h2>Llega el <strong> PBX virtual </strong> a Colombia</h2>
+			<div id="line"></div>
+			<h3>Telefonia en la nube para empresas y negocios en 3 pasos</h3>
 			<div class="row">
-				<div class="col-md-4">
-				1. Escoges tu numero telefonico colombiano.
+				<div class="col-md-4 top-section-square">
+				<img src="/img/Proceso1.png" class="responsive" />  <br><br>
+				<strong> A. </strong> Escoges tu numero telefonico
+				
 				</div> 
-				<div class="col-md-4">
-				2. Grabas el mensaje que contesta en el PBX.	
+				<div class="col-md-4 top-section-square">
+				<img src="/img/Proceso2.png" class="responsive" />  <br> <br>
+				<strong>B. </strong> Grabas el mensaje que contesta
 				</div>
-				<div class="col-md-4">
-				3. Seleccionas a donde quieres que te entre la llamada.	
+				<div class="col-md-4 top-section-square">
+				<img src="/img/Proceso3.png" class="responsive" /> <br> <br>
+				<strong>C. </strong> Seleccionas a donde quieres que entre la llamada	
 				</div>
 			</div>
 		</div>
 
 		<div class="col-md-5 form-section">
-		<h2>Probadita Gratis</h2>
-		<h3>Inicia prueba gratis de 90 dias.</h3> <br/>
-		<br/>
-			<form action="//forms.brace.io/srodriguezo@gmail.com" role="form" method="post">
+		<h2>Prueba Gratuita</h2>
+		<h3>Registrate sin costo y comienza una prueba gratis de 90 dias.</h3> 
+			<form action="//forms.brace.io/srodriguezo@gmail.com" class="main-form" role="form" method="post">
 				<div class="form-group">
 					<input type="text" class="form-control" id="nombre" placeholder="Su nombre" name="name" >
 				</div>
@@ -54,7 +58,9 @@
 				<div class="form-group">
 					<input type="tel" class="form-control" id="nombre" placeholder="Su telefono">
 				</div>
-				<button type="submit" value="send" class="btn btn-primary">Submit</button>
+				<button type="submit" value="send" class="btn btn-primary">Iniciar Prueba</button>
+
+				<input type="hidden" name="_next" value="//site.io/thanks.html" />
 
 			</form>
 
@@ -72,37 +78,56 @@
 <div class="container">
 		<div class="row">
 			
-			<div class="col-md-12">
-				<div class="main-point">
+			<div class="col-md-6 main-features">
 					
-					<h4><i class="fa fa-cubes"></i> Una solucion completa y profesional de PBX.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. </p>
-				</div>
-				<div class="main-point">
-					
-					<h4><i class="fa fa-male"></i> La solucion telefonica mas economica del mercado.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. </p>
-				</div>
-				<div class="main-point main-point-last">
-					
-					<h4><i class="fa fa-codepen"></i> Sin cargos de conexion, instalaciones tecnicas ni hardware</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. </p>
-				</div>
-			</div>
+					<h4><i class="fa fa-rocket	main-features"></i>  Una solucion completa y profesional de PBX.</h4>
+					<p>Si esta tiene una pequeña empresa, un negocio, o necesita un numero fijo y no quiere perder una sola llamada, esta es la solucion para usted. El PBX Online es la solucion para  darle una imagen profesional a su negocio, con un IVR (contestador automatico), ruteo de llamadas y un contestador virtual que ademas haran que nunca pierda una sola llamada. </p>
 
-			
+					
+					<h4><i class="fa fa-cloud-download"></i>  La solucion telefonica mas economica del mercado.</h4>
+					<p>Gracias a la tecnologia de servidores en la nube y de voz IP, nuestra solucion es completamente cloud, lo que nos permite llegarle a nuestros clientes con unos precios inigualables. </p>
+				
+					
+					<h4><i class="fa fa-puzzle-piece"></i>  Sin cargos de conexion y sin instalaciones</h4>
+					<p>Ya no es necesario invertir en una complicada y costosa planta telefonica para tener un sistema de telefonia PBX. Hemos desarrollado un sistema de PBX en la nube, con el cual, en 5 minutos tiene un sistema que contesta llamadas en la nube y las enruta a su celular o numero telefonico existente. </p>
+			</div>
+			<div class="col-md-6">
+			<img src="/img/PBXonline-iphone.png" class="img-responsive" />
+				
+			</div>
 		</div>
 </div>
 </section>
 <!-- End Advantages -->
+
+<!-- Start As Seen On -->
+
+<section id="seen">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 as-seen-on">
+		<img src="img/seen.png" class="responsive" />
+		</div>
+	</div>	
+</div>
+
+</section>
+<!-- End As Seen On -->
+
 
 <!-- Start Footer -->
 
 <section id="footer">
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
-
+		<div class="col-md-12 main-footer">
+		<a href="#">Ayuda</a> 
+		<a href="#">- Quienes somos   </a>
+		<a href="#">- Contacto</a>
+		<br>
+		Copyright PBX Online S.A.S. Todos los derechos reservados.
+		<br>
+		Calle 77a No 13A - 09. Bogota, Colombia
 
 
 		</div>
