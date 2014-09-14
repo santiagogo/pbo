@@ -1,18 +1,58 @@
-<template name="layout">
-  <div class="container">
-  <header class="navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="/">PBX Online 2</a>
+ <template name="layout">
+<header>
+  <link href='http://fonts.googleapis.com/css?family=Exo+2:400,900,800' rel='stylesheet' type='text/css'>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
+  <link rel="icon" sizes="16x16 32x32" href="/favicon.ico?v=2">
+</header>
 
+<!-- Start Menu -->
 
+<section id="menu">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-5 logo">
+			 <h1><i class="fa fa-phone-square"></i><strong>  PBX</strong>Online</h1>
+		</div>
+		<div class="col-xs-7 pbx-nav">
+			<a href="#{{pathFor 'contacto'}}">Contacto</a>
+			<a href="#{{pathFor 'inicio'}}">Ventajas</a>
+			<a href="#{{pathFor 'inicio'}}">¿C&oacute;mo funciona?</a>
+			<a href="#{{pathFor 'inicio'}}">Inicio</a>
+		</div>
+		</div>
+	</div>
+</section>
 
-<!-- End Scripts -->
+<!-- End Menu -->
 
-  <title>PBX Online - PBX Virtual Colombia mas facil que nunca </title>
-    </div>
-  </header>
-  <div id="main" class="row-fluid">
+<!-- Templates -->
+
 {{> yield}}
+
+<!-- End templates -->
+
+
+<!-- Start Footer -->
+
+<section id="footer">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 main-footer">
+		<a href="{{pathFor 'inicio'}}">Inicio</a> 
+		<a href="{{pathFor 'ayuda'}}">- Ayuda</a> 
+		<a href="{{pathFor 'nosotros'}}">- Quienes somos</a>
+		<a href="{{pathFor 'contacto'}}">- Contacto</a>
+		<br><br>
+		Copyright PBX Online S.A.S. Todos los derechos reservados.
+		<br>
+		Calle 77a No 13A - 09. Bogota, Colombia
+
+
+		</div>
+	</div>	
 </div>
-  </div>
+
+</section>
+<!-- End Footer -->
+
 </template>
